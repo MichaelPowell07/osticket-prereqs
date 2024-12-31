@@ -19,13 +19,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Download Zip File
-- Enable IIS within windows
+- Azure Virtual Machine
+- Internet Information Services(IIS)
 - Install PHP manager
 - Install Rewrite Module
 - Install VC File
 - Install MYSQL File
+- Install Heidid SQL
+- osTicket v1.15.8
+- Link to downloadshttps:[//drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0](url)
 <h2>Installation Steps</h2>
+1.) The first thing you are going to want to do is create a virtual machine by going to [https://portal.azure.com/#home](url) . Setup your virtual machine with Windows 10 Pro, version 22H2. You will want to create a virtual machine with at least 2vcpus and 16gbs of memory.
+
+2.) Once you have created your virtual machine you will want to connect to it by using the public IP address the Virtual Machine (VM) is setup with. You will connect using the remote desktop connection app.      
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
