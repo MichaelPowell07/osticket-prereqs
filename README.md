@@ -59,3 +59,11 @@ To make sure the IIS is installed/enabled go to a browser of your choice and sea
 (PHPManagerforIIS_v1.5.0msi) Go through the install wizard and complete the install.
 
 6.) Next from the Installation files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+7.) Create a folder in the C drive called PHP.
+
+8.) From the installation files, download PHP 7.3.8(php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into c:/PHP
+
+9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe.
+
+10.) Download and install MYSQL 5.5.62(mysql-5.5.62-win32.msi) Run the setup wizard: Typical setup -> Launch configuration wizard (after install) -> standard configuration.
