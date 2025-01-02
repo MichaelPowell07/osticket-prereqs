@@ -59,11 +59,33 @@ To make sure the IIS is installed/enabled go to a browser of your choice and sea
 (PHPManagerforIIS_v1.5.0msi) Go through the install wizard and complete the install.
 
 6.) Next from the Installation files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+![image](https://github.com/user-attachments/assets/76cfcef6-a6ec-460a-a078-62725e258643)
 
 7.) Create a folder in the C drive called PHP.
 
+![image](https://github.com/user-attachments/assets/66b85363-3fab-4f16-86a8-f43667f74ecc)
+
 8.) From the installation files, download PHP 7.3.8(php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into c:/PHP
+
+![image](https://github.com/user-attachments/assets/a0e45c4f-b2e0-4b61-bccf-fc30182b9b16)
 
 9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe.
 
+![image](https://github.com/user-attachments/assets/e4b0ff58-df5e-4b2d-9c86-36deb22e083d)
+
 10.) Download and install MYSQL 5.5.62(mysql-5.5.62-win32.msi) Run the setup wizard: Typical setup -> Launch configuration wizard (after install) -> standard configuration.
+
+![image](https://github.com/user-attachments/assets/496dec5e-de66-4d05-b6ec-b94dab83e78d)
+
+![image](https://github.com/user-attachments/assets/11e2879b-6171-417c-ab24-b334cfa99c17)
+
+![image](https://github.com/user-attachments/assets/2014a848-2ec0-48a4-8d7e-ba1f4ccde9d7)
+
+Make the new root password: Password1
+
+![image](https://github.com/user-attachments/assets/a2f1806c-c9a7-4b90-970c-35aa6b9ebb80)
+
+11.) Now that we have the files downloaded and installed we will want to search for the IIS in the windows search bar. Open IIS as an administrator.The program should look like this.
+
+![image](https://github.com/user-attachments/assets/8d40bf3d-60fd-4138-9cbb-1d2041650bbf)
+
