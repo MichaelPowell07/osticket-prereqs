@@ -165,9 +165,31 @@ Once that is done we will continue to setup osTicket in the browser. Click conti
 
 We will want to download and install HeidiSQL from the installation files.
 
+![image](https://github.com/user-attachments/assets/bc8fa8ad-737e-4fa3-975d-c37c200bfc60)
 
+When the program is open we will create a new session in it.
 
+![image](https://github.com/user-attachments/assets/cab8ade8-5845-4a6c-944d-8d2f8792e834)
 
+We want to make sure the username is root and the password is Password1.
+
+![image](https://github.com/user-attachments/assets/6a38b524-1534-4e42-9664-a1de41a5dfe7)
+
+Once we are connected to the session we will go back to the browser to finish setting everything up. Under the database settings in the browser the username will be root and the password will be root.
+
+We will now create a new database within HeidiSQL. In Heidid right click on the left side where it says "unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MYSQL database type in "osTicket"
+
+![image](https://github.com/user-attachments/assets/446c6185-0d3b-4f2a-8e5d-8f467a144832)
+
+The last step is to do some clean up. We will want to delete the setup folder in our system - Delete: C:\inetpub\wwwroot\osTicket\setup only delete the setup folder and nothing else.
+
+We then will want to set the permissions back to "read" only in the ost-config.php file.
+
+The last step after that is to login to osTicket on the browser.
+
+![image](https://github.com/user-attachments/assets/b1a745af-e311-4e83-a515-ee8cbd51cc51)
+
+You have now successfully installed and setup osTicket!
 
 
 
